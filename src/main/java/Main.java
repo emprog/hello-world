@@ -10,9 +10,6 @@ public class Main {
         Hello.alex();
         Hello.alex();
         Hello.alex();
-        Hello.alex();
-        Hello.alex();
-        Hello.alex();
         SelectName.name();
     }
 }
