@@ -3,7 +3,7 @@ public class Hello {
     public static int counter = 0;
 
     public static void world() {
-        System.out.println("Hello World!!!");
+        System.out.println("Hello World!");
     }
 
     public static void evgeniy() {
