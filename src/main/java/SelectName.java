@@ -3,25 +3,21 @@ import java.util.Scanner;
 public class SelectName {
 
     public static void artem(){
-        System.out.println("Привет Артём!");
-    }
-
-    public static void milana(){
-        System.out.println("Привет Милана!");
+        System.out.println("Привет");
     }
 
     public static void name(){
-        System.out.print("Введите ваше имя: ");
+        System.out.print("Сколько будет 5+5:");
 
         Scanner in = new Scanner(System.in);
         String myName = in.nextLine();
 
-        if(myName.equals("Люся")) {
-            System.out.print("Привет " + myName + " - Супер кошка!");
-        } else if (myName.equals("Милана")){
-            System.out.print("Привет " + myName + " - позови Артёма!");
-        } else if (myName.equals("Артём")){
-            System.out.print("Привет " + myName + " - позови Женю!");
-        } else System.out.print(myName + " - Приятно познакомиться!!!");
+        if(myName.equals("10")) {
+            System.out.print("Молодец " + myName + " - всё правильно!");
+        } else if (myName.equals("5")){
+            System.out.print("Почти " + myName + " - ты немного ошибся!");
+        } else if (myName.equals("0")){
+            System.out.print("Почти " + myName + " - ты маленько ошибся!");
+        } else System.out.print(myName + " - Неправильно ");
     }
 }
